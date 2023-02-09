@@ -2,16 +2,16 @@ import React from 'react'
 
 const Carrusel = () => {
   return (
-    <div id="default-carousel" class="relative" data-carousel="static">
+    <div id="default-carousel" class="relative mt-20" data-carousel="static">
       <div class="relative h-56 overflow-hidden rounded-none md:h-96">
-        <div class="duration-700 ease-in-out" data-carousel-item="active">
-          <img src="./images/banner-talgidi.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+        <div class="duration-700 ease-in-out" data-carousel-item>
+          <img src="./images/banner-talgidi.png" class="w-full" alt="..." />
         </div>
         <div class="duration-1000 ease-in-out" data-carousel-item>
-          <img src="./images/banner-jurisconsulta.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+          <img src="./images/banner-jurisconsulta.png" class="w-full" alt="..." />
         </div>
-        <div class="duration-1000 ease-in-out" data-carousel-item>
-          <img src="./images/banner-hamparteplayers.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+        <div class="duration-1000 ease-in-out" data-carousel-item="active">
+          <img src="./images/banner-hamparteplayers.png" class="w-full" alt="..." />
         </div>
       </div>
       <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
